@@ -92,6 +92,6 @@ socket.on('typing', (msg)=>{
 
     debounce(()=>{
         typing.innerHTML = ''
-    }, 500)
+    }, 1000)
 })
 
